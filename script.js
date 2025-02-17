@@ -3,7 +3,7 @@ let count = 0;
 const counterDisplay = document.getElementById("counter");
 const errorMessage = document.getElementById("error-message");
 
-const helloVariations = ["hello", "helo", "hallo", "hullo", "hola", "hi", "hey", "allo", "hellooo", "namhyo", "ringe", "kyu", "divansh", "hell", "hall", "haoil"];
+const helloVariations = ["nam" , "ringtone" , "ringe"];
 
 if ("webkitSpeechRecognition" in window || "SpeechRecognition" in window) {
     const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
